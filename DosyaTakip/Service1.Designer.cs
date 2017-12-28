@@ -1,6 +1,8 @@
-﻿namespace DosyaTakip
+﻿using System.ServiceProcess;
+
+namespace DosyaTakip
 {
-    partial class Service1
+    public partial class DosyaTakipService
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,8 +30,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
-            this.ServiceName = "Service1";
+            // 
+            // DosyaTakipService
+            // 
+            this.ServiceName = "DosyaV1.1";
+
         }
 
         #endregion
